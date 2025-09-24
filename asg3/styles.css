@@ -1,16 +1,28 @@
-h1 {
-	font-family: "Libre Bodoni", serif;
+.favorite-band h1 {
+  font-family: "Cinzel", serif;
+  
 }
 
-p {
-	font-family: "Urbanist", sans-serif;
+.favorite-band p {
+  font-family: "Rubik", sans-serif;
+  
 }
 
-h1, h2, h3 {
+body.favorite-band {
+	background-color: #8b0aba6c;
+}
+
+.index-page h1, h2, h3 {
 	font-family: "Libre Baskerville", serif;
 }
 
-p, body {
+.index-page p, body {
 	font-family: "Inter", sans-serif;
 }
+
+body.index-page {
+	background-color: #a7eaa0;
+}
+
+
 
