@@ -1,5 +1,74 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+	color:whitesmoke;
+	font-family: "pt-sans", sans-serif;
+	line-height: 30px;
+	
 }
+h1 {
+	color: lightpink;
+	font-size: 50px;
+	margin-top: 20px;
+	padding-left: 45px;
+	font-family:"Neuton", serif;
+}
+
+h2,h3 {
+	color: lightpink;
+	font-family:"Neuton", serif;
+
+}
+
+ul {
+	list-style-type: square;
+}
+
+.links a {
+  color: lightpink;
+}
+
+.links a:visited {
+	color: gray;
+}
+
+.links ul :hover{
+	color: lightgreen;
+}
+
+.links{
+	display: flex;
+	color:lightpink;
+
+}
+
+img {
+  width: 400px; 
+  height: auto;
+  border: 1px solid lightpink;
+}
+
+p {
+	width:750px
+}
+
+.bio {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 2px solid lightgreen;
+	width: 810px;
+	background-color: #000000c9;
+	
+}
+.main {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	margin-left: 20px;
+}
+
+

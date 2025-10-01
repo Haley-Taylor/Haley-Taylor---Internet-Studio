@@ -1,0 +1,76 @@
+h1, h2{
+    color: orange;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Diplomata", serif;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+h3 {
+    color: orange;
+    font-family: "Diplomata", serif;
+}
+
+img {
+    width: 200px; 
+    height: auto;
+    border: 3px solid white;    
+}
+
+body {
+    background-image: url("./img/pump-back.jpg");
+    background-repeat: repeat;
+}
+
+p {
+    Color: rgb(186, 142, 219);
+    font-family: "Lato", sans-serif;
+}
+
+li {
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu {
+    border: 2px solid purple;
+    padding: 15px;
+    background-color: #000000c9;
+    width: 300px;
+    height: fit-content;
+}
+
+.guests {
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 2px solid purple;
+	width: 50%;
+	background-color: #000000c9;
+    padding: 10px;
+    width: 350px;
+}
+
+.side {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+
+}
+
+.rsvp {
+    border: 2px solid purple;
+    padding: 15px;
+    background-color: #000000c9;
+    width: 500px;
+    height: fit-content;
+    color:rgb(186, 142, 219);
+    font-family: "Lato", sans-serif;
+}
