@@ -1,7 +1,8 @@
 h1,h2,h3 {font-family: "Bodoni Moda", serif;
 }
 
-.karla-font p {font-family: "Karla", sans-serif;
+.karla-font {
+  font-family: "Karla", sans-serif;
 }
 
 body.index-page {
