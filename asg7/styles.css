@@ -25,13 +25,104 @@
  Insert all your glorious CSS styles below! */
 
 
-/* annapurna-sil-regular - latin */
+
+/*  Styling for index page  */
+
+/* akshar-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Annapurna SIL';
+  font-family: 'Akshar';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/annapurna-sil-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/akshar-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* alice-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alice-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* background styling */
+
+#page1 {
+  background-image: url("./img/tile.jpg");
+  background-size: repeat;
+}
+
+/* index page text styling */
+
+h1,h2,h3 {
+  font-family: "Alice", serif;
+  color:white;
+  padding-left: 10px;
+  text-align: center;
+  text-shadow: #000000 2px 2px 4px;
+}
+
+p {
+  font-family: "Akshar", sans-serif;
+  color:rgb(255, 255, 255);
+  padding: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: rgb(115, 115, 115);
+}
+
+a:hover {
+  color: rgb(161, 255, 176);
+}
+
+/* styling for sidebar */
+
+aside {
+  width: 300px;
+  background-color: rgb(70, 148, 84);
+  padding: 10px;
+  float:right;
+  margin-left: 20px;
+  border: 1px solid rgb(0, 125, 19);
+}
+
+.queen {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(0, 68, 13);
+  width: 700px;
+  height: 1250px;
+  padding: 10px;
+  border: 10px solid rgb(255, 255, 255);
+  box-shadow: 50px 50px 50px rgb(116, 93, 34);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+
+/* styling for wireframe page */
+
+/* alegreya-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/alegreya-v39-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* antic-regular - latin */
@@ -43,27 +134,67 @@
   src: url('fonts/antic-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-h1,h2,h3 {
-  font-family: 'Annapurna SIL';
+/* wireframe text styling */
+
+#wireframe h1, #wireframe h2, #wireframe h3 {
+  font-family: 'Alegreya', serif;
+  padding-left: 10px;
+  text-align: center;
 }
 
-p,ul {
-  font-family: 'Antic';
+#wireframe h1 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #ffffff;
 }
 
-aside {
-  width:30%;
-  padding: 15px;
-  margin-left:15px;
-  float: right;
-}
-
-.sec1{
-  height: fit-content;
-}
-.sec1, .sec3, .sec2 {
+#wireframe h2 {
+  color: rgb(12, 0, 146);
+  font-size: 30px;
+  border-bottom:1px solid rgb(0, 0, 0) ;
+  width: 790px;
   margin-right: auto;
   margin-left: auto;
-  background-color: rgb(228, 199, 255);
-  width: 700px;
+  background-color: rgb(255, 255, 255);
 }
+
+#wireframe h3 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#wireframe p {
+  font-family: 'Antic', sans-serif;
+  padding: 10px;
+  line-height: 25px;
+  text-align: center;
+  color: rgb(0, 60, 129);
+}
+
+/* wireframe page styling */
+
+#wireframe {
+  background-image: url("./img/wire-back.png");
+  background-size: repeat;
+}
+
+.questions {
+  background-color: rgb(247, 185, 0);
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 2px rgb(0, 21, 67);
+}
+
+/* wireframe images styling */
+
+#wire1, #wire2, #wire3, #wire4 {
+ height: 600px;
+ width: auto;
+}
+
+
+
+
