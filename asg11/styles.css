@@ -42,7 +42,7 @@
   src: url('./fonts/road-rage-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
+/*fluid type scale*/
 html {font-size: 16px;}
 
 body {
@@ -97,6 +97,7 @@ body {
   background-image: url('./img/background.png');
  }
 
+/*intro styling*/
 h1, h2 {
   color: #ffffff;
   text-align: center;
@@ -131,6 +132,7 @@ p {
   font-family: "Readex Pro", sans-serif;
 }
 
+/*gallery styling*/
  .gallery {
   display: flex;
   flex-wrap: wrap;
