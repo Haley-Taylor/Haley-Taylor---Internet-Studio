@@ -134,20 +134,13 @@ p {
  .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  gap: 5px;
+  justify-content: space-around;
   color: #ffffff;
 }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 100px;          
-  justify-content: center;
-}
 
 .monk {
-  flex:space-between; 
   max-width: 500px;   
   text-align: center;
   background-color: rgb(82, 0, 0);
