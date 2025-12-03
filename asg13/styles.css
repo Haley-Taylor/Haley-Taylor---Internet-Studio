@@ -1,0 +1,92 @@
+
+/* playwrite-de-grund-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playwrite DE Grund';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/playwrite-de-grund-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/poppins-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*general styles*/
+body{
+    background-image: url(img/back.jpg);
+}
+
+h1 {
+    text-align: center;
+    color:blue;
+    text-shadow: 5px 5px 5px grey;
+    font-family: "Playwrite DE Grund", serif;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    font-family: "Playwrite DE Grund", serif;
+    font-size: 28px;
+}
+
+h3 {
+    color: darkblue;
+    font-family: "Playwrite DE Grund", serif;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+/*grid styles*/
+.apply {
+    font-family: "poppins", sans-serif;
+}
+
+.intro {
+    background-color: steelblue;
+    width:60%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border: darkblue 2px solid;
+    box-shadow: gray 2px 2px 5px;
+}
+
+.pic {
+    width: 100%;
+    height: 200px;
+}
+
+ .grid {
+  display: grid;
+  width: 90%;
+  gap: 20px 10px;
+  grid-template-columns:repeat(3, 3fr);
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.job {
+    border: steelblue 2px solid;
+    padding: 10px;
+}
+
+
+
+
+
